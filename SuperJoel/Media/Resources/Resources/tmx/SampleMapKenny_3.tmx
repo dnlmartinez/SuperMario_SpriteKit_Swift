@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="332" height="25" tilewidth="64" tileheight="64" nextobjectid="266">
+ <tileset firstgid="1" name="platforms" tilewidth="64" tileheight="64" tilecount="18" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="../platforms.atlas/sand.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../platforms.atlas/sandCenter_rounded.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../platforms.atlas/sandCenter.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../platforms.atlas/sandCliff_left.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../platforms.atlas/sandCliff_right.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../platforms.atlas/sandCliffAlt_left.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../platforms.atlas/sandCliffAlt_right.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../platforms.atlas/sandCorner_leftg.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../platforms.atlas/sandCorner_right.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../platforms.atlas/sandHalf_left.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../platforms.atlas/sandHalf_mid.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../platforms.atlas/sandHalf_right.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../platforms.atlas/sandHalf.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../platforms.atlas/sandHill_left.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="../platforms.atlas/sandHill_right.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="64" source="../platforms.atlas/sandLeft.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../platforms.atlas/sandMid.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../platforms.atlas/sandRight.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="19" name="items" tilewidth="64" tileheight="64" tilecount="24" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="../items.atlas/coinBronze.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../items.atlas/coinGold.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../items.atlas/coinSilver.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../items.atlas/flagBlue_down.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../items.atlas/flagBlue1.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../items.atlas/flagBlue2.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../items.atlas/flagGreen_down.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../items.atlas/flagGreen1.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../items.atlas/flagGreen2.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../items.atlas/flagRed_down.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../items.atlas/flagRed1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../items.atlas/flagRed2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../items.atlas/flagYellow_down.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../items.atlas/flagYellow1.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="../items.atlas/flagYellow2.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="64" source="../items.atlas/gemBlue.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../items.atlas/gemGreen.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../items.atlas/gemRed.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="64" source="../items.atlas/gemYellow.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="64" source="../items.atlas/keyBlue.png"/>
+  </tile>
+  <tile id="20">
+   <image width="64" height="64" source="../items.atlas/keyGreen.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="64" source="../items.atlas/keyRed.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="64" source="../items.atlas/keyYellow.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="64" source="../items.atlas/star.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="misc" tilewidth="64" tileheight="64" tilecount="72" columns="0">
+  <tile id="0">
+   <image width="64" height="64" source="../misc.atlas/bombWhite.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../misc.atlas/boxCoin_boxed.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../misc.atlas/boxCoin_disabled_boxed.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../misc.atlas/boxCoin_disabled.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="64" source="../misc.atlas/boxCoin.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../misc.atlas/boxCrate_double.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../misc.atlas/boxCrate_single.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../misc.atlas/boxCrate_warning.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../misc.atlas/boxCrate.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../misc.atlas/boxExplosive_disabled.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../misc.atlas/boxExplosive_used.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../misc.atlas/boxExplosive.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../misc.atlas/boxItem_boxed.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../misc.atlas/boxItem_disabled_boxed.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="../misc.atlas/boxItem_disabled.png"/>
+  </tile>
+  <tile id="15">
+   <image width="64" height="64" source="../misc.atlas/boxItem.png"/>
+  </tile>
+  <tile id="16">
+   <image width="64" height="64" source="../misc.atlas/brickBrown.png"/>
+  </tile>
+  <tile id="17">
+   <image width="64" height="64" source="../misc.atlas/brickGrey.png"/>
+  </tile>
+  <tile id="18">
+   <image width="64" height="64" source="../misc.atlas/bridgeA.png"/>
+  </tile>
+  <tile id="19">
+   <image width="64" height="64" source="../misc.atlas/bridgeB.png"/>
+  </tile>
+  <tile id="20">
+   <image width="64" height="64" source="../misc.atlas/bush.png"/>
+  </tile>
+  <tile id="21">
+   <image width="64" height="64" source="../misc.atlas/cactus.png"/>
+  </tile>
+  <tile id="22">
+   <image width="64" height="64" source="../misc.atlas/chain.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="64" source="../misc.atlas/doorClosed_mid.png"/>
+  </tile>
+  <tile id="24">
+   <image width="64" height="64" source="../misc.atlas/doorClosed_top.png"/>
+  </tile>
+  <tile id="25">
+   <image width="64" height="64" source="../misc.atlas/doorOpen_mid.png"/>
+  </tile>
+  <tile id="26">
+   <image width="64" height="64" source="../misc.atlas/doorOpen_top.png"/>
+  </tile>
+  <tile id="27">
+   <image width="64" height="64" source="../misc.atlas/fence.png"/>
+  </tile>
+  <tile id="28">
+   <image width="64" height="64" source="../misc.atlas/fenceBroken.png"/>
+  </tile>
+  <tile id="29">
+   <image width="64" height="64" source="../misc.atlas/grass.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="64" source="../misc.atlas/ladderMid.png"/>
+  </tile>
+  <tile id="31">
+   <image width="64" height="64" source="../misc.atlas/ladderTop.png"/>
+  </tile>
+  <tile id="32">
+   <image width="64" height="64" source="../misc.atlas/lava.png"/>
+  </tile>
+  <tile id="33">
+   <image width="64" height="64" source="../misc.atlas/lavaTop_high.png"/>
+  </tile>
+  <tile id="34">
+   <image width="64" height="64" source="../misc.atlas/lavaTop_low.png"/>
+  </tile>
+  <tile id="35">
+   <image width="64" height="64" source="../misc.atlas/leverLeft.png"/>
+  </tile>
+  <tile id="36">
+   <image width="64" height="64" source="../misc.atlas/leverMid.png"/>
+  </tile>
+  <tile id="37">
+   <image width="64" height="64" source="../misc.atlas/leverRight.png"/>
+  </tile>
+  <tile id="38">
+   <image width="64" height="64" source="../misc.atlas/lockBlue.png"/>
+  </tile>
+  <tile id="39">
+   <image width="64" height="64" source="../misc.atlas/lockGreen.png"/>
+  </tile>
+  <tile id="40">
+   <image width="64" height="64" source="../misc.atlas/lockRed.png"/>
+  </tile>
+  <tile id="41">
+   <image width="64" height="64" source="../misc.atlas/lockYellow.png"/>
+  </tile>
+  <tile id="42">
+   <image width="64" height="64" source="../misc.atlas/mushroomBrown.png"/>
+  </tile>
+  <tile id="43">
+   <image width="64" height="64" source="../misc.atlas/mushroomRed.png"/>
+  </tile>
+  <tile id="44">
+   <image width="64" height="64" source="../misc.atlas/plantPurple.png"/>
+  </tile>
+  <tile id="45">
+   <image width="64" height="64" source="../misc.atlas/rock.png"/>
+  </tile>
+  <tile id="46">
+   <image width="64" height="64" source="../misc.atlas/sign.png"/>
+  </tile>
+  <tile id="47">
+   <image width="64" height="64" source="../misc.atlas/signExit.png"/>
+  </tile>
+  <tile id="48">
+   <image width="64" height="64" source="../misc.atlas/signLeft.png"/>
+  </tile>
+  <tile id="49">
+   <image width="64" height="64" source="../misc.atlas/signRight.png"/>
+  </tile>
+  <tile id="50">
+   <image width="64" height="64" source="../misc.atlas/snow.png"/>
+  </tile>
+  <tile id="51">
+   <image width="64" height="64" source="../misc.atlas/spikes.png"/>
+  </tile>
+  <tile id="52">
+   <image width="64" height="64" source="../misc.atlas/spring.png"/>
+  </tile>
+  <tile id="53">
+   <image width="64" height="64" source="../misc.atlas/sprung.png"/>
+  </tile>
+  <tile id="54">
+   <image width="64" height="64" source="../misc.atlas/switchBlue_pressed.png"/>
+  </tile>
+  <tile id="55">
+   <image width="64" height="64" source="../misc.atlas/switchBlue.png"/>
+  </tile>
+  <tile id="56">
+   <image width="64" height="64" source="../misc.atlas/switchGreen_pressed.png"/>
+  </tile>
+  <tile id="57">
+   <image width="64" height="64" source="../misc.atlas/switchGreen.png"/>
+  </tile>
+  <tile id="58">
+   <image width="64" height="64" source="../misc.atlas/switchRed_pressed.png"/>
+  </tile>
+  <tile id="59">
+   <image width="64" height="64" source="../misc.atlas/switchRed.png"/>
+  </tile>
+  <tile id="60">
+   <image width="64" height="64" source="../misc.atlas/switchYellow_pressed.png"/>
+  </tile>
+  <tile id="61">
+   <image width="64" height="64" source="../misc.atlas/switchYellow.png"/>
+  </tile>
+  <tile id="62">
+   <image width="64" height="64" source="../misc.atlas/torch1.png"/>
+  </tile>
+  <tile id="63">
+   <image width="64" height="64" source="../misc.atlas/torch2.png"/>
+  </tile>
+  <tile id="64">
+   <image width="64" height="64" source="../misc.atlas/torchOff.png"/>
+  </tile>
+  <tile id="65">
+   <image width="64" height="64" source="../misc.atlas/water.png"/>
+  </tile>
+  <tile id="66">
+   <image width="64" height="64" source="../misc.atlas/waterTop_high.png"/>
+  </tile>
+  <tile id="67">
+   <image width="64" height="64" source="../misc.atlas/waterTop_low.png"/>
+  </tile>
+  <tile id="68">
+   <image width="64" height="64" source="../misc.atlas/weight.png"/>
+  </tile>
+  <tile id="69">
+   <image width="64" height="64" source="../misc.atlas/weightAttached.png"/>
+  </tile>
+  <tile id="70">
+   <image width="64" height="64" source="../misc.atlas/window.png"/>
+  </tile>
+  <tile id="71">
+   <image width="64" height="64" source="../misc.atlas/bomb.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="115" name="background" tilewidth="64" tileheight="64" spacing="2" tilecount="9" columns="3">
+  <image source="../bg.png" trans="f8fff4" width="256" height="256"/>
+  <terraintypes>
+   <terrain name="Nuevo Terreno" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <layer name="background" width="332" height="25">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="platforms" width="332" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztm8lu2zAURVm7w6JF0PYD+gVdZFUvvGu/JYtsAvT/N40gBWVeOPNxMs4BLhRN1LNkHdMWYwwAAAAAAAAAAAAAAAAAAAAAAMDO3egCAAAW4WR0nXlRbAsAYCZORteZt+bL+9EFAMA0nIyeMy9mHl/ei/iWSx+61s/szJ8iueu1j7cC8jW4Etu+Zj2sy8noOPNi5vIltCfFNfAazs/aSF+WOPPiSA9W6gfa/BKxcXmnh49S+1qzth86zkzMWldP3j/n23M+jC6kAJcvc5zpcmXImyU+Xc2HMXJ9CbfHitf4i5XQMrlcrqtl822Naz8fKcHny5AzY45MCQCA5KXvaUfDjXZqCPlSe6xRjFvrR27w+ZBHyrOYmb9vz4D8zhIipX84O5o+jBHzZW9nAkAdPl9uLlnBfyN5EH/L+RRf4szXhJ4x0Z+EUcjfxXP6mfCWxyM2qb7EmRDiOroAD9fESELjKF3LUsYz+I4F/Sm9Fjm+vHVn8l4uI+SdUaR6coQvNc7Van3ImcYQ1VyDXF9u+Z6Rd4HYhNqwkc/OXAkdx34dNiX3VC05bbpq6FFjbh2xbVuT68meNY48divk2J6P5v99+Else+5VVICUc//X7N/D5XSjxJdasdHYLnd/mxH3lqstX/upvqypz1fPNTAv64jt25JSV4725WrejI1/PBu3G1v5MnU8psY5x5c7Nfda7Drk3CNa7Wp5Q9uXLc/l6r6cpU4XOWPEU3wp26udj1F7Pv8cU3y5gy/xZWta1d46Lr6at//DE4v8ba0XNdf9xzH9fUzx5U7L91iJn0a5w1ePb17WkbJvq3Op7QRtWtXeOk+OnD3LQynZJyebw1Oeb9TkH8vQyic=
+  </data>
+ </layer>
+ <objectgroup name="collision" offsetx="0" offsety="3.33778">
+  <object id="2" x="779.849" y="1259.8" width="19.5287" height="338.089">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="3" x="807.307" y="1282.33" width="19.6742" height="315.063">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="4" x="830.662" y="1277.24" width="1146.36" height="310.387">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="7" x="1285.72" y="505.317" width="54.4018" height="130.485">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="11" x="1792.77" y="824.721" width="127.6" height="59.9871">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="13" x="833.699" y="897.323" width="1079.87" height="36.1156">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="14" x="195.149" y="663.472" width="20.3282" height="926.573">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="15" x="2.19394" y="474.681" width="22.4087" height="1117.56">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="16" x="1026.47" y="829.137" width="505.978" height="57.0247">
+   <properties>
+    <property name="SKACollisionType" value=""/>
+   </properties>
+  </object>
+  <object id="17" x="1087.83" y="765.462" width="315.42" height="57.3181">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="18" x="1219.25" y="633.116" width="127.96" height="54.7116">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="19" x="1154.36" y="700.842" width="196.97" height="53.4079">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="21" x="2173.13" y="1280.23" width="450.488" height="318.046">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="23" x="2816.72" y="1278.59" width="828.573" height="315.035">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="26" x="4809.83" y="1347.13" width="108.537" height="247.806">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="27" x="3832.25" y="1277.01" width="196.59" height="314.561">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="28" x="2237.74" y="955.087" width="190.884" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="32" x="2626.86" y="825.757" width="185.478" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="33" x="3009.64" y="760.61" width="315.652" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="38" x="4285.67" y="1212.65" width="63.2941" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="39" x="4225.63" y="1280.71" width="573.975" height="314.561">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="41" x="4925.43" y="1411.37" width="570.788" height="181.05">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="43" x="4924.73" y="1084.39" width="255.615" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="44" x="6400.7" y="1338.67" width="58.6861" height="57.5521">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="45" x="6398.71" y="1406.42" width="512.625" height="181.05">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="46" x="6781.34" y="1271.08" width="127.036" height="130.983">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="47" x="7103.73" y="1404.76" width="1338.31" height="191.063">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="48" x="9275.59" y="1213.11" width="195.062" height="381.317">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="49" x="11004.8" y="1400.81" width="447.635" height="191.063">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="93" x="11518.9" y="761.989" width="318.352" height="57.5521">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="94" x="11772.2" y="1142.46" width="638.779" height="454.748">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="95" x="10495.1" y="952.566" width="829.033" height="57.5521">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="96" x="9853.43" y="758.76" width="445.188" height="64.2277">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="97" x="9153.09" y="699.591" width="381.207" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="98" x="8959.31" y="631.805" width="258.272" height="64.2277">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="99" x="8326.63" y="763.357" width="434.612" height="64.2277">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="100" x="6398.9" y="770.658" width="184.841" height="117.632">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="101" x="4609.3" y="572.631" width="58.2079" height="60.8899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="102" x="5954.04" y="766.222" width="251.596" height="124.308">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="103" x="5693.59" y="1404.09" width="448.526" height="194.401">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="104" x="4356.9" y="639.209" width="372.287" height="57.5521">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="105" x="3839.22" y="638.995" width="318.883" height="57.5521">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="106" x="3455.54" y="642.141" width="252.127" height="50.8765">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="151" x="14529.3" y="1476.02" width="2422.82" height="110.957">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="152" x="17022.2" y="1406.37" width="122.896" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="153" x="17213.2" y="1340.59" width="134.128" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="154" x="17404.2" y="1267.96" width="125.704" height="15.961">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="155" x="17662.5" y="1272" width="266.114" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="156" x="18041.6" y="1216.61" width="193.101" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="157" x="17280.6" y="1462.54" width="892.342" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="158" x="18305.6" y="1401.76" width="125.704" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="159" x="18558.3" y="1404.99" width="125.704" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="160" x="18813.9" y="1398.95" width="128.512" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="161" x="19072.2" y="1397.95" width="122.896" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="162" x="19325" y="1403.56" width="131.32" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="163" x="19518.7" y="1337.78" width="125.704" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="164" x="19648.5" y="1525.85" width="395.291" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="165" x="20479.1" y="1526.7" width="763.165" height="18.7692">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="166" x="21212.1" y="21.945" width="33.033" height="1501.06">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="167" x="20352.8" y="1156.02" width="131.32" height="392.26">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="168" x="20033.4" y="1468.15" width="131.32" height="44.043">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="169" x="20097.2" y="1402.95" width="142.553" height="60.8922">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="170" x="20164.6" y="1345.57" width="142.553" height="52.4676">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="171" x="20229.2" y="1278.18" width="108.855" height="60.8922">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="172" x="20288.2" y="1207.97" width="58.307" height="60.8922">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="173" x="11459.1" y="1342.7" width="55.4505" height="251.146">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="174" x="11520.2" y="1274.99" width="118.868" height="321.239">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="175" x="11647.9" y="1213.96" width="122.206" height="384.657">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="177" x="14275.5" y="1279.53" width="125.544" height="311.226">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="178" x="14406.6" y="1343.5" width="115.531" height="244.47">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="180" x="14141.7" y="1214.56" width="124.109" height="375.64">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="181" x="14018.6" y="1152.31" width="114.743" height="438.203">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="183" x="12093.4" y="638.43" width="572.576" height="60.8922">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="184" x="14529.9" y="1408.97" width="567.432" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="186" x="16065.9" y="1024.03" width="122.832" height="34.1876">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="187" x="16384.8" y="950.59" width="186.621" height="37.5254">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="188" x="16768.6" y="952.702" width="186.621" height="30.8498">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="189" x="17085.6" y="826.008" width="186.621" height="31.8038">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="190" x="17407.2" y="824.12" width="186.621" height="38.861">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="191" x="17790.1" y="823.064" width="251.384" height="38.861">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="192" x="18240.5" y="758.301" width="186.621" height="63.561">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="193" x="18685" y="887.827" width="380.91" height="60.0325">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="194" x="19521.1" y="955.534" width="254.328" height="40.8632">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="195" x="19259.1" y="823.064" width="133.633" height="63.561">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="196" x="19968.5" y="890.771" width="313.203" height="37.5254">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="197" x="20289.7" y="830.133" width="144.783" height="37.5254">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="198" x="32.1868" y="502.311" width="22.4087" height="1097.53">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="199" x="68.9025" y="532.675" width="22.4087" height="1064.16">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="200" x="102.28" y="576.066" width="22.4087" height="1017.43">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="201" x="132.32" y="609.444" width="22.4087" height="984.049">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="202" x="162.698" y="642.822" width="22.4087" height="957.346">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="203" x="225.778" y="706.24" width="22.4087" height="890.591">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="204" x="259.156" y="736.28" width="22.4087" height="863.888">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="205" x="359.29" y="833.076" width="22.4087" height="767.093">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="206" x="389.33" y="866.454" width="22.4087" height="737.053">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="207" x="325.912" y="799.698" width="22.4087" height="793.795">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="208" x="289.196" y="766.32" width="22.4087" height="837.186">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="209" x="422.708" y="896.494" width="22.4087" height="703.675">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="210" x="689.73" y="1170.19" width="22.4087" height="426.639">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="211" x="719.095" y="1203.23" width="22.4087" height="396.599">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="212" x="749.81" y="1233.61" width="22.4087" height="363.221">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="213" x="459.423" y="929.872" width="22.4087" height="670.297">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="214" x="496.139" y="969.925" width="22.4087" height="630.244">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="215" x="529.517" y="1006.64" width="22.4087" height="593.528">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="216" x="562.894" y="1036.68" width="22.4087" height="556.812">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="217" x="596.272" y="1073.4" width="22.4087" height="523.434">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="218" x="629.65" y="1103.44" width="22.4087" height="496.732">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="219" x="659.69" y="1136.81" width="22.4087" height="460.017">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="223" x="5376.2" y="1084.37" width="125.441" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="224" x="5629.87" y="957.539" width="128.779" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="225" x="6077.13" y="1281.3" width="68.6991" height="114.294">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="226" x="6721.32" y="763.948" width="255.615" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="227" x="7168.59" y="633.774" width="255.615" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="228" x="7682.61" y="637.112" width="255.615" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="229" x="7105.17" y="1274.63" width="315.695" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="230" x="7108.51" y="1341.38" width="375.775" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="231" x="8383.54" y="1344.72" width="62.0235" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="232" x="8703.97" y="1338.05" width="128.779" height="261.157">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="233" x="8957.64" y="1277.97" width="128.779" height="321.237">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="234" x="9341.48" y="1144.45" width="65.3613" height="64.2277">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="235" x="9661.91" y="1277.97" width="128.779" height="317.899">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="236" x="9918.92" y="1338.05" width="65.3613" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="237" x="9918.92" y="1398.13" width="896.469" height="197.739">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="244" x="12862.8" y="633.774" width="315.695" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="245" x="12669.3" y="1147.79" width="128.779" height="117.156">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="246" x="12989.7" y="1144.45" width="125.441" height="124.404">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="247" x="13313.4" y="1144.45" width="185.522" height="127.551">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="248" x="13633.9" y="1147.79" width="248.939" height="117.538">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="249" x="13376.9" y="633.774" width="312.357" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="253" x="13887.5" y="637.112" width="255.615" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="254" x="14081.1" y="700.53" width="55.348" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="255" x="14084.5" y="763.948" width="182.184" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="256" x="14208" y="830.703" width="128.779" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="258" x="15549.2" y="1085.73" width="323.037" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="259" x="15227.9" y="1213.04" width="190.764" height="54.2143">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+  <object id="260" x="15679.2" y="952.025" width="60.9726" height="127.551">
+   <properties>
+    <property name="SKACollisionType" value="SKACollisionTypeRect"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
